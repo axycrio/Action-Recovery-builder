@@ -108,4 +108,4 @@ jobs:
         tag_name: ${{ github.run_id }}
         body: Recovery for ${{ github.event.inputs.DEVICE_NAME }}
       env:
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${}
